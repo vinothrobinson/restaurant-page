@@ -54,6 +54,21 @@
     font-size: 16px;
 }
 
+.food-options {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 50% 50%;
+    height: 25%;
+}
+
+.food-image {
+    width: 90%;
+    height: 60%;
+}
+
+.description, .food-name, .price {
+    font-family: "Economica"
+}
 .picture {
     background-color: #86efac;;
     background-image: url("https://cdn.donmai.us/original/a1/ef/a1ef9232b5fb15b9a19049f596946003.jpg");
