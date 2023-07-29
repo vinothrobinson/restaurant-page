@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home-page {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+.site-info {
+    background-color: #dcfce7;
+}
+
+.restaurant-name {
+    color: rgba(210, 141, 72, 0.802);
+    margin-top: 30px;
+    font-size: 60px;
+    font-family: 'Economica';
+    text-align: center;
+}
+
+.comments {
+    margin-top: 25%;
+    font-size: 40px;
+    font-family: 'Economica';
+    text-align: center;
+}
+
+.hours {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.hour-title {
+    font-size: 20px;
+}
+
+.time {
+    font-size: 16px;
+}
+
+.picture {
+    background-color: #86efac;;
+    background-image: url("https://cdn.donmai.us/original/a1/ef/a1ef9232b5fb15b9a19049f596946003.jpg");
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: center;
+}
