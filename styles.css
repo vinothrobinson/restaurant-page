@@ -69,6 +69,16 @@
 .description, .food-name, .price {
     font-family: "Economica"
 }
+
+.contact-info {
+    margin-top: 20%;
+   text-align: center;
+}
+
+.icon {
+    width: 50%;
+    height: 100%;
+}
 .picture {
     background-color: #86efac;;
     background-image: url("https://cdn.donmai.us/original/a1/ef/a1ef9232b5fb15b9a19049f596946003.jpg");
