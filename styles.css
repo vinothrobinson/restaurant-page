@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.home-page {
+.home-page, .menu-page, .contact-page {
     display: grid;
     grid-template-columns: 50% 50%;
     height: 100vh;
@@ -11,6 +11,19 @@
 
 .site-info {
     background-color: #dcfce7;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 8%;
+    padding: 10px;
+}
+
+.button-tab {
+    width: 10%;
+    height: 40%;
 }
 
 .restaurant-name {
@@ -22,7 +35,7 @@
 }
 
 .comments {
-    margin-top: 25%;
+    margin-top: 10%;
     font-size: 40px;
     font-family: 'Economica';
     text-align: center;
